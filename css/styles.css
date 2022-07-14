@@ -11604,6 +11604,7 @@ body {
 }
 
 .details {
+    display: flex;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -11643,12 +11644,14 @@ body {
 }
 
 .boxx .imgBox img {
+    display: flex;
     max-width: 100%;
     transition: transform 2s;
 }
 
 .boxx .imgBox {
-    width: 600px;
+    display: flex;
+    width: 400px;
     height: 600px;
     border-radius: 10px;
     position: relative;
@@ -11658,7 +11661,7 @@ body {
 .boxx {
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
+    width: 400px;
     height: 600px;
     position: relative;
     margin: 10px auto;
