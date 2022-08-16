@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#fefefe, rgb(133, 198, 255), #12a5af, rgb(25, 182, 230), #fefefe, #12a5af)
+}
+
+.container {
+    border-radius: 16px;
+    width: 80%;
+    margin: 60px auto;
+    background-image: url(/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .3; */
+    display: flex;
+}
+
+
+/*
+.container::after {
+    content: "";
+    position: absolute;
+    border-radius: 16px;
+    width: 80%;
+    height: 560px;
+
+    background-color: rgb(190, 22, 22);
+    opacity: .4;
+}*/
+
+#calculator {
+    align-items: center;
+    border-radius: 10px;
+    width: 320px;
+    height: 520px;
+    /* border: 3px solid rgb(104, 100, 97); */
+    margin: 20px auto;
+    opacity: 1 !important;
+    box-shadow: inset 2px 4px 19px 3px;
+}
+
+#calculator:hover {
+    box-shadow: 10px 10px 10px;
+    opacity: 1 !important;
+    background-color: rgb(228, 214, 248);
+    box-shadow: 2px 4px 20px 10px;
+}
+
+#result {
+    height: 120px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #d18888;
+    /* border: 1px solid salmon; */
+}
+
+#output {
+    text-align: right;
+    font-weight: 700;
+    font-size: 30px;
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.operator,
+.empty,
+.number {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    margin: 15px;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.empty,
+.number {
+    background-color: transparent;
+}
+
+.operator:hover,
+.number:hover {
+    cursor: pointer;
+    background-color: #fab6b6;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: violet;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: rgb(92, 90, 2);
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: rgb(10, 245, 49);
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgb(253, 9, 21);
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: rgb(4, 124, 40);
+}
