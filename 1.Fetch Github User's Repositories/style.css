@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divStyle{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    display: flex;
+    color: wheat;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: url(/CDG_blog_post_image_06-850x412.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    border-radius: 1%;
+}
+
+.container .git-repo {
+    padding: 30px;
+    display: flex;
+}
+
+.container .git-repo input {
+    height: 54px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container .git-repo input:focus {
+    height: 54px;
+   
+    border: none;
+}
+.repo-name{
+    padding: 10px;
+    color:#333;
+    box-shadow: inset 0px 0px 13px 1px rgb(14, 6, 6);
+    margin:30px auto;
+}
+ .Git-button {
+    text-decoration: none;
+    width: 140px;
+    margin-left: 10px;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+    border-radius: 2.4px;
+    background-color: transparent;
+    color: rgb(223, 208, 183);
+    font-weight: bold;
+    border: 0.61px solid rgb(197, 227, 252);
+ transition: .0002s;
+    box-shadow: inset 0px 0px 20px 20px #000;
+}
+
+ .Git-button:hover {
+box-shadow: inset 0px 0px 20px 20px #fff;
+    color: rgb(10, 8, 8);
+    cursor: pointer;
+}
+
+.container .show-data {
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px auto;
+    border-radius: 2px;
+    text-align: center;
+
+}
